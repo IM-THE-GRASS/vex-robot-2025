@@ -19,7 +19,7 @@ void autonomous() {
 //runs during the driver control period
 void opcontrol() {
 	pros::Controller master(pros::E_CONTROLLER_MASTER);
-	pros::MotorGroup left_mg({-6, 8, -7});  
+	pros::MotorGroup left_mg({16, 18, 17});  
 	pros::MotorGroup right_mg({-1, -3, -5});  
 	pros::Motor intake_motor(9); 
 	pros::ADIDigitalOut claw_pneumatic = pros::ADIDigitalOut('B'); 
